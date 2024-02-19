@@ -18,7 +18,7 @@ export default {
 <template>
   <div class="container-fluid p-0 bg-black ">
 
-    <header class="d-flex flex-wrap justify-content-center px-3 py-3 mb-4 border-bottom">
+    <header class="d-flex flex-wrap justify-content-center px-3 py-3 mb-0">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <img src="../assets/Logo.png" alt="">
       </a>

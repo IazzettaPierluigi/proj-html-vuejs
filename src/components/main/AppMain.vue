@@ -2,11 +2,15 @@
 //import di mainbox-1
 import MainBox1 from "./main-components/MainBox1.vue"
 
+//import di mainbox-2
+import MainBox2 from "./main-components/MainBox2.vue";
+
 export default {
     name: "AppMain",
 
     components: {
         MainBox1,
+        MainBox2,
     },
 
     data() {
@@ -21,10 +25,20 @@ export default {
 </script>
 
 <template>
-    <MainBox1></MainBox1>
+    <main>
+
+        <MainBox1></MainBox1>
+
+        <MainBox2></MainBox2>
+    </main>
 </template>
 
 <style lang="scss" scoped>
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
+
+main {
+    background-color: black;
+    padding-inline: 4px;
+}
 </style>
