@@ -1,11 +1,11 @@
 <script>
-import ExampleName from "./components/ExampleName.vue";
+import Header from "./components/Header.vue";
 import { store } from "./store";
 
 
 export default {
   components: {
-    ExampleName,
+    Header,
   },
   data() {
     return {
@@ -21,6 +21,8 @@ export default {
 };
 </script>
 
-<template></template>
+<template>
+  <Header></Header>
+</template>
 
 <style lang="scss"></style>
