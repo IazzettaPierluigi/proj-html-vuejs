@@ -1,11 +1,16 @@
 <script>
-import Header from "./components/Header.vue";
+import AppHeader from "./components/AppHeader.vue";
+
+//import main
+import AppMain from "./components/main/AppMain.vue"
+
 import { store } from "./store";
 
 
 export default {
   components: {
-    Header,
+    AppHeader,
+    AppMain,
   },
   data() {
     return {
@@ -22,7 +27,8 @@ export default {
 </script>
 
 <template>
-  <Header></Header>
+  <AppHeader />
+  <AppMain />
 </template>
 
 <style lang="scss"></style>
