@@ -32,10 +32,17 @@ export default {
         <div class="container-cards d-flex  w-100 gap-4 justify-content-center flex-wrap ">
             <div class="row gap-4 w-100 gap-4 justify-content-center flex-wrap ">
 
-                <div v-for="(element, index) in propsElement" :key="index" class="card col-3 p-5 bg-black text-center ">
+                <div v-for="(element, index) in propsElement" :key="index" class="card col-3 p-5 bg-black  text-center ">
                     <img :src="element.image" class="card-img-top rounded-0 " :alt="element.title">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column gap-3">
                         <h4 class="card-title fs-6 text-uppercase text-white">{{ element.title }}</h4>
+                        <span class="card-socials d-flex justify-content-center gap-2 text-white align-items-center ">
+                            Stream on:
+                            <a v-for="(social, key) in element.socials" :key="key" :href="social.link" class="social-icon"
+                                target="_blank">
+                                <img :src="social.icon" alt="">
+                            </a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -49,4 +56,18 @@ export default {
 <style lang="scss" scoped>
 @use "../../../styles/partials/mixins" as *;
 @use "../../../styles/partials/variables" as *;
+
+.card-socials {
+    img {
+        width: 20px;
+        height: 20px;
+
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    }
+
+    img:hover {
+        filter: invert(58%) sepia(28%) saturate(2491%) hue-rotate(355deg) brightness(97%) contrast(97%);
+
+    }
+}
 </style>
