@@ -15,13 +15,13 @@ export default {
                 },
                 {
 
-                    icon: "image(11)",
+                    icon: "(11)",
                     title: "music studio",
 
                     paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
                 },
                 {
-                    icon: "image(12)",
+                    icon: "(12)",
                     title: "acoustic covers",
 
                     paragraph: "Lorem ipsum dolor sit amet consectetur adip."
@@ -46,7 +46,7 @@ export default {
 
             <div v-for="(element, index) in    boxItems   " :key="index" class="box text-center text-white ">
 
-                <img :src="`../../../assets/image${element.icon}.svg`" alt="">
+                <img :src="`../../../src/assets/image${element.icon}.svg`" alt="">
 
                 <h2>{{ element.title }}</h2>
 

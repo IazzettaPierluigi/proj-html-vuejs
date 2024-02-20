@@ -1,4 +1,7 @@
 <script>
+//import dello store
+import { store } from "../../store"
+
 //import di mainbox-1
 import MainBox1 from "./main-components/MainBox1.vue"
 
@@ -19,7 +22,7 @@ export default {
 
     data() {
         return {
-
+            store
         };
     },
     methods: {
@@ -35,7 +38,7 @@ export default {
 
         <MainBox2></MainBox2>
 
-        <MainBox3></MainBox3>
+        <MainBox3 :propsElement="store.playlistCards"></MainBox3>
     </main>
 </template>
 
