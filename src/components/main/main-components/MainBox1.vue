@@ -8,17 +8,20 @@ export default {
         return {
             boxItems: [
                 {
-
+                    icon: "(10)",
                     title: "original ideas",
 
                     paragraph: "Lorem ipsum dolor sitt. Consectetur, voluptate?"
                 },
                 {
+
+                    icon: "image(11)",
                     title: "music studio",
 
                     paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
                 },
                 {
+                    icon: "image(12)",
                     title: "acoustic covers",
 
                     paragraph: "Lorem ipsum dolor sit amet consectetur adip."
@@ -43,6 +46,7 @@ export default {
 
             <div v-for="(element, index) in    boxItems   " :key="index" class="box text-center text-white ">
 
+                <img :src="`../../../assets/image${element.icon}.svg`" alt="">
 
                 <h2>{{ element.title }}</h2>
 
@@ -110,6 +114,7 @@ export default {
 
             img {
                 width: 50px;
+                height: 20px;
             }
 
         }

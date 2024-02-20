@@ -5,12 +5,16 @@ import MainBox1 from "./main-components/MainBox1.vue"
 //import di mainbox-2
 import MainBox2 from "./main-components/MainBox2.vue";
 
+//import di mainbox-3
+import MainBox3 from "./main-components/MainBox3.vue";
+
 export default {
     name: "AppMain",
 
     components: {
         MainBox1,
         MainBox2,
+        MainBox3,
     },
 
     data() {
@@ -30,6 +34,8 @@ export default {
         <MainBox1></MainBox1>
 
         <MainBox2></MainBox2>
+
+        <MainBox3></MainBox3>
     </main>
 </template>
 
@@ -39,6 +45,6 @@ export default {
 
 main {
     background-color: black;
-    padding-inline: 4px;
+    padding-inline: 10px;
 }
 </style>

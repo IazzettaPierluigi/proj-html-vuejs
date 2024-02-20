@@ -16,11 +16,11 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <div class="container-fluid p-0  ">
         <div class="text-div text-center d-flex flex-column align-items-center gap-3">
-            <h3 class="text-primary text-uppercase ">who we are</h3>
+            <h3 class="text-primary text-uppercase fs-5 ">who we are</h3>
             <h1 class="text-white text-uppercase ">sense the jazz</h1>
-            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odit deleniti
+            <p class="text-secondary w-25 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odit deleniti
                 distinctio
                 quasi voluptate
                 dicta itaque, amet quae aliquam facilis soluta voluptatem, iusto, quisquam alias. Qui in magni voluptates
@@ -29,7 +29,7 @@ export default {
         </div>
 
         <div class="video-container w-100 mt-5 position-relative">
-            <img src="../../../assets/Video.jpg" alt="" class="w-100 object-fit-fill ">
+            <img src="../../../assets/Video.jpg" alt="" class="w-100 object-fit-cover ">
             <div class="button-text position-absolute d-flex flex-column align-items-center">
 
                 <button class=" btn border-primary rounded-circle ">
@@ -45,7 +45,8 @@ export default {
 @use "../../../styles/partials/mixins" as *;
 @use "../../../styles/partials/variables" as *;
 
-.container {
+.container-fluid {
+    margin-top: 200px;
 
     .text-div {
         margin-top: 300px;
