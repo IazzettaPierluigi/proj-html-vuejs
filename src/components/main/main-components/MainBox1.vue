@@ -52,24 +52,7 @@ export default {
 
                 <p>{{ element.paragraph }}</p>
             </div>
-            <!-- <div class="box bg-primary">
-                <h1>icon</h1>
 
-                <h2>subtle</h2>
-
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius et dicta nesciunt nihil, deserunt
-                    corrupti, enim numquam minus nulla magnam dolorum ea sequi facilis sapiente blanditiis ullam
-                    accusantium. Officiis, culpa.</p>
-            </div>
-            <div class="box bg-primary">
-                <h1>icon</h1>
-
-                <h2>subtle</h2>
-
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius et dicta nesciunt nihil, deserunt
-                    corrupti, enim numquam minus nulla magnam dolorum ea sequi facilis sapiente blanditiis ullam
-                    accusantium. Officiis, culpa.</p>
-            </div> -->
         </div>
     </div>
 </template>
@@ -107,14 +90,23 @@ export default {
 
         .box {
             width: calc(50% / 3);
-            text-align: center;
+            justify-content: center;
+            align-items: center;
             aspect-ratio: 1;
             padding: 40px;
             background-color: #121212;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
 
             img {
-                width: 50px;
-                height: 20px;
+                width: 70px;
+                height: 70px;
+                filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(225deg) brightness(106%) contrast(102%);
+
+                &:hover {
+                    filter: invert(55%) sepia(35%) saturate(975%) hue-rotate(352deg) brightness(101%) contrast(90%);
+                }
             }
 
         }

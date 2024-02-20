@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid p-0  ">
+    <div class="container-fluid p-0 mt-5  ">
         <div class="row">
 
         </div>
