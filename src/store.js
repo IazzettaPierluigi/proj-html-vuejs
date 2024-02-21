@@ -238,6 +238,7 @@ export const store = reactive({
             paragrafo: "Signs Your Car Battery Has To Be Replaced When The Dashboard Lights Start Flashing, This Is A Sign The Battery Is Dying. Several Issues Arise And",
             image: "/src/assets/giveaways_rock.jpg"
         }
-    ]
+    ],
+
 
 });
