@@ -5,11 +5,15 @@ import { store } from "../../store"
 //import footslider
 import FootSlider from "./footer-components/FootSlider.vue"
 
+//import footlists
+import FootLists from "./footer-components/FootLists.vue"
+
 export default {
-    name: "AppFooter",
+    name: "Appfooter",
 
     components: {
         FootSlider,
+        FootLists,
     },
 
     data() {
@@ -26,6 +30,7 @@ export default {
 <template>
     <footer>
         <FootSlider></FootSlider>
+        <FootLists></FootLists>
     </footer>
 </template>
 
