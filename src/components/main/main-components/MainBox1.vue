@@ -50,7 +50,7 @@ export default {
                     <img :src="`../../../src/assets/image${element.icon}.svg`" alt="">
                 </figure>
 
-                <h2>{{ element.title }}</h2>
+                <h2 class="text-uppercase fs-4">{{ element.title }}</h2>
 
                 <p>{{ element.paragraph }}</p>
             </div>
