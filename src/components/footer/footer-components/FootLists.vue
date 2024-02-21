@@ -23,11 +23,12 @@ export default {
             <div class="col-2 text-white ">
                 <h2 class="text-uppercase">bookings</h2>
                 <ul class="list-unstyled text-capitalize ">
-                    <li>502 new design str, melbourne, san francisco, CA 94119, united states of america australia</li>
+                    <li><a href="">502 new design str, melbourne, san francisco, CA 94119, united states of america
+                            australia</a></li>
 
-                    <li>t: 1 123-456-789</li>
+                    <li><a href="">t: 1 123-456-789</a></li>
 
-                    <li>email: demo@example.com</li>
+                    <li><a href="">email: demo@example.com</a></li>
 
                     <li></li>
                 </ul>
@@ -36,30 +37,30 @@ export default {
             <div class="col-2 text-white ">
                 <h2 class="text-uppercase">information</h2>
                 <ul class="list-unstyled text-capitalize ">
-                    <li>product support</li>
+                    <li><a href="">product support</a></li>
 
-                    <li>checkout</li>
+                    <li><a href="">checkout</a></li>
 
-                    <li>report abuse</li>
+                    <li><a href="">report abuse</a></li>
 
-                    <li>redeem voucher</li>
+                    <li><a href="">redeem voucher</a></li>
 
-                    <li>order status</li>
+                    <li><a href="">order status</a></li>
                 </ul>
             </div>
 
             <div class="col-2 text-white ">
                 <h2 class="text-uppercase">support</h2>
                 <ul class="list-unstyled text-capitalize ">
-                    <li>policies & rules</li>
+                    <li><a href=""> policies & rules</a></li>
 
-                    <li>privacy policy</li>
+                    <li><a href="">privacy policy</a></li>
 
-                    <li>license policy</li>
+                    <li><a href="">license policy</a></li>
 
-                    <li>my account</li>
+                    <li><a href="">my account</a></li>
 
-                    <li>locality</li>
+                    <li><a href="">locality</a></li>
                 </ul>
             </div>
 
@@ -91,4 +92,15 @@ export default {
 @use "../../../styles/partials/variables" as *;
 
 @use "../../../styles/partials/mixins" as *;
+
+
+li {
+    a {
+        text-decoration: none;
+    }
+}
+
+li:hover {
+    color: #f2870c;
+}
 </style>
