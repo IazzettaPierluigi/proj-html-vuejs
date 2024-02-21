@@ -50,7 +50,7 @@ export default {
         <div class=" album d-flex flex-column gap-2 px-5 align-items-start  text-uppercase d-flex justify-content-center ">
             <h4 class="text-primary">instrumental rock</h4>
             <h1 class="text-white">album out now</h1>
-            <div class="btn text-white  border border-primary px-4 rounded-0   ">read more</div>
+            <div class="btn text-white  border border-primary px-4 rounded-0  btn-outline-primary ">read more</div>
         </div>
 
         <div class=" container-fluid stats ">

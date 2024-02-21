@@ -78,7 +78,7 @@ export default {
                 </div>
                 <div class="col-auto">
                     <button type="submit"
-                        class="btn border border-primary rounded-0 px-5 text-white text-uppercase fw-bold   ">Send
+                        class="btn border border-primary rounded-0 px-5 text-white text-uppercase fw-bold btn-outline-primary   ">Send
                         message</button>
                 </div>
 

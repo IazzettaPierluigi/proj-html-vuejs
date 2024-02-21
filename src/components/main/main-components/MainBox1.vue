@@ -40,7 +40,7 @@ export default {
         <div class="text-box text-white text-center text-uppercase d-flex flex-column align-items-center gap-5 ">
             <h4 class="text-primary mb-2 ">instrumental rock</h4>
             <h1>music in this video</h1>
-            <div class="btn text-white  border border-primary px-4 rounded-0   ">read more</div>
+            <div class="btn text-white  border border-primary px-4 rounded-0 btn-outline-primary   ">read more</div>
         </div>
         <div class="box-container w-100  d-flex flex-row ">
 

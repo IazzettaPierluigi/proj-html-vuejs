@@ -25,7 +25,7 @@ export default {
                 quasi voluptate
                 dicta itaque, amet quae aliquam facilis soluta voluptatem, iusto, quisquam alias. Qui in magni voluptates
                 aliquid.</p>
-            <div class="btn text-white  border border-primary px-4 rounded-0   ">read more</div>
+            <div class="btn text-white  border border-primary px-4 rounded-0 btn-outline-primary  ">read more</div>
         </div>
 
         <div class="video-container w-100 mt-5 position-relative">
