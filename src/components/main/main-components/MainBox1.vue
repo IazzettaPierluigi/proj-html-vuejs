@@ -45,8 +45,10 @@ export default {
         <div class="box-container w-100  d-flex flex-row ">
 
             <div v-for="(element, index) in    boxItems   " :key="index" class="box text-center text-white ">
+                <figure>
 
-                <img :src="`../../../src/assets/image${element.icon}.svg`" alt="">
+                    <img :src="`../../../src/assets/image${element.icon}.svg`" alt="">
+                </figure>
 
                 <h2>{{ element.title }}</h2>
 
@@ -99,13 +101,26 @@ export default {
             flex-direction: column;
             gap: 10px;
 
-            img {
-                width: 70px;
-                height: 70px;
-                filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(225deg) brightness(106%) contrast(102%);
+            figure {
+                height: 120px;
+                width: 120px;
+                border: 5px solid #12121233;
+
 
                 &:hover {
+                    border: 5px solid rgba(0, 0, 0, 0.194);
+                    border-radius: 60%;
                     filter: invert(55%) sepia(35%) saturate(975%) hue-rotate(352deg) brightness(101%) contrast(90%);
+                }
+
+                img {
+                    width: 70px;
+                    height: 70px;
+                    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(225deg) brightness(106%) contrast(102%);
+                    margin-block: 20px;
+                    margin-inline: 20px;
+
+
                 }
             }
 

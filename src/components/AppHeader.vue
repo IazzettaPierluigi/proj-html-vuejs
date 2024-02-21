@@ -78,6 +78,10 @@ li a,
 
 li a img {
   filter: invert(100%) sepia(44%) saturate(2333%) hue-rotate(185deg) brightness(112%) contrast(100%);
+
+  &:hover {
+    filter: invert(55%) sepia(35%) saturate(975%) hue-rotate(352deg) brightness(101%) contrast(90%);
+  }
 }
 
 li a:hover,
