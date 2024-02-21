@@ -217,5 +217,27 @@ export const store = reactive({
 
             }
         },
+    ],
+
+    eventsArray: [
+        {
+            nome: "hip hop wired to dance make",
+            data: "06 november 2024",
+            paragrafo: "Driving Short Distances Music Is A Music Genre That Includes Traditional Folk Music And The Contemporary Genre That Evolved From The Former",
+            image: "/src/assets/hip_hop_wired_to_dance_make.jpg"
+        },
+        {
+            nome: "music business worldwide",
+            data: "27 may 2024",
+            paragrafo: "Accelerate Work And Drive Productivity The Beatles Experimentation And Creative Freedom Led Other Bands To Experiment In Various Ways As Well. ",
+            image: "/src/assets/music_business-worldwide.jpg"
+        },
+        {
+            nome: "giveaway rock to all",
+            data: "31 june 2024",
+            paragrafo: "Signs Your Car Battery Has To Be Replaced When The Dashboard Lights Start Flashing, This Is A Sign The Battery Is Dying. Several Issues Arise And",
+            image: "/src/assets/giveaways_rock.jpg"
+        }
     ]
+
 });

@@ -14,6 +14,9 @@ import MainBox3 from "./main-components/MainBox3.vue";
 //import di mainbox-3
 import MainBox4 from "./main-components/MainBox4.vue";
 
+//import di mainbox-3
+import MainBox5 from "./main-components/MainBox5.vue";
+
 export default {
     name: "AppMain",
 
@@ -22,6 +25,7 @@ export default {
         MainBox2,
         MainBox3,
         MainBox4,
+        MainBox5,
     },
 
     data() {
@@ -45,6 +49,8 @@ export default {
         <MainBox3 :propsElement="store.playlistCards"></MainBox3>
 
         <MainBox4></MainBox4>
+
+        <MainBox5 :eventsProp="store.eventsArray"></MainBox5>
     </main>
 </template>
 
